@@ -44,7 +44,7 @@ public class MyAccountTest extends TestBase {
 		loginPage.clickOnLoginButton();
 		
 		FirstLoginPage firstLoginPage = FirstLoginPage.getObject();
-		String [] expMenuListArray = {"What's New", "Women", "Men","Gear", "Training", "Sal"};
+		String [] expMenuListArray = {"What's New", "Women", "Men","Gear", "Training", "Sale"};
 		List <String> expectedMenuList = new ArrayList<String>(Arrays.asList(expMenuListArray));
 		List <String> menuList = firstLoginPage.getMenuList();
 		
